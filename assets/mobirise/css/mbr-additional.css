@@ -3105,53 +3105,50 @@ body {
 .cid-ryvvZ2L6Ba .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rE63Tu2ngg {
+.cid-rF2nR8w7la {
   padding-top: 120px;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
   background-image: url("../../../assets/images/milky-way-923738-1280-1280x853.jpg");
 }
-.cid-rE63Tu2ngg .testimonials-container {
+.cid-rF2nR8w7la .testimonials-container {
   margin: 0 auto;
 }
-.cid-rE63Tu2ngg .testimonials-container .testimonials-item {
+.cid-rF2nR8w7la .testimonials-container .testimonials-item {
   justify-content: center;
   margin-top: 3rem;
   -webkit-justify-content: center;
 }
-.cid-rE63Tu2ngg .testimonials-container .testimonials-item .user {
+.cid-rF2nR8w7la .testimonials-container .testimonials-item .user {
   background: #ffffff;
 }
-.cid-rE63Tu2ngg .testimonials-container .testimonials-item .user.row {
+.cid-rF2nR8w7la .testimonials-container .testimonials-item .user.row {
   margin: 0;
 }
-.cid-rE63Tu2ngg .testimonials-container .testimonials-item .user .user_image {
+.cid-rF2nR8w7la .testimonials-container .testimonials-item .user .user_image {
   width: 150px;
   height: 150px;
   overflow: hidden;
   margin: 2rem auto 2rem auto;
 }
-.cid-rE63Tu2ngg .testimonials-container .testimonials-item .user .user_image img {
+.cid-rF2nR8w7la .testimonials-container .testimonials-item .user .user_image img {
   width: 100%;
   min-width: 100%;
   min-height: 100%;
 }
-.cid-rE63Tu2ngg .testimonials-container .testimonials-item .user .testimonials-caption {
+.cid-rF2nR8w7la .testimonials-container .testimonials-item .user .testimonials-caption {
   padding: 2rem;
   padding: 2rem 2rem 2rem 0;
 }
 @media (max-width: 260px) {
-  .cid-rE63Tu2ngg .user_image {
+  .cid-rF2nR8w7la .user_image {
     width: 100% !important;
     height: auto !important;
   }
 }
 @media (max-width: 767px) {
-  .cid-rE63Tu2ngg .testimonials-caption {
+  .cid-rF2nR8w7la .testimonials-caption {
     padding: 0 2rem 2rem 2rem !important;
   }
-}
-.cid-rE63Tu2ngg .user_text {
-  color: #232323;
 }
 .cid-ryvuARCuE7 .navbar {
   background: #0a556e;
@@ -3552,47 +3549,44 @@ body {
 .cid-ryvuARCuE7 .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rE6KWtvoyw {
+.cid-rEXkpBhY2Q {
   padding-top: 120px;
   padding-bottom: 120px;
   background-image: url("../../../assets/images/milky-way-923738-1280-1280x853.jpg");
 }
-.cid-rE6KWtvoyw .testimonials-container {
+.cid-rEXkpBhY2Q .testimonials-container {
   margin: 0 auto;
 }
-.cid-rE6KWtvoyw .testimonials-container .testimonials-item {
+.cid-rEXkpBhY2Q .testimonials-container .testimonials-item {
   justify-content: center;
   margin-top: 3rem;
   -webkit-justify-content: center;
 }
-.cid-rE6KWtvoyw .testimonials-container .testimonials-item .user {
+.cid-rEXkpBhY2Q .testimonials-container .testimonials-item .user {
   background: #ffffff;
 }
-.cid-rE6KWtvoyw .testimonials-container .testimonials-item .user.row {
+.cid-rEXkpBhY2Q .testimonials-container .testimonials-item .user.row {
   margin: 0;
 }
-.cid-rE6KWtvoyw .testimonials-container .testimonials-item .user .user_image {
+.cid-rEXkpBhY2Q .testimonials-container .testimonials-item .user .user_image {
   width: 150px;
   height: 150px;
   overflow: hidden;
   margin: 2rem auto 2rem auto;
 }
-.cid-rE6KWtvoyw .testimonials-container .testimonials-item .user .user_image img {
+.cid-rEXkpBhY2Q .testimonials-container .testimonials-item .user .user_image img {
   width: 100%;
   min-width: 100%;
   min-height: 100%;
 }
-.cid-rE6KWtvoyw .testimonials-container .testimonials-item .user .testimonials-caption {
+.cid-rEXkpBhY2Q .testimonials-container .testimonials-item .user .testimonials-caption {
   padding: 2rem;
 }
 @media (max-width: 260px) {
-  .cid-rE6KWtvoyw .user_image {
+  .cid-rEXkpBhY2Q .user_image {
     width: 100% !important;
     height: auto !important;
   }
-}
-.cid-rE6KWtvoyw .user_text P {
-  text-align: left;
 }
 .cid-ryuy1AxZpk {
   background-image: url("../../../assets/images/milky-way-923738-1280-1280x853.jpg");
@@ -4446,7 +4440,7 @@ body {
 .cid-rE9HCdLWBz {
   padding-top: 90px;
   padding-bottom: 0px;
-  background: linear-gradient(45deg, #55b4d4, #073b4c);
+  background: linear-gradient(45deg, #149dcc, #232323);
 }
 .cid-rE9HCdLWBz .mbr-text,
 .cid-rE9HCdLWBz .mbr-section-btn {
