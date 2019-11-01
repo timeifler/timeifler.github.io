@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page9.html",
+    "currentPage": "DESC2020.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -4990,7 +4990,7 @@
         }
       ]
     },
-    "page9.html": {
+    "DESC2020.html": {
       "settings": {
         "title": "DESC-Meeting",
         "meta_descr": "",
