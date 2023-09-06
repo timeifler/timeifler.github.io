@@ -205,38 +205,13 @@
             <div class="mbr-white col-md-10">
                 <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">
                     <br>Kinematic Lensing (KL)</h1>
-                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style display-4">The main noise contribution in traditional weak lensing (WL) measurements originates from the large dispersion of the intrinsic ellipticity distribution of galaxies. This so-called shape noise dilutes the desired measurement of the shear effect, which is a factor of 10-50 lower. As a consequence, traditional WL methods require a large ensemble of galaxies to measure the shear effect, which leads to the inclusion of a substantial fraction of faint, small galaxies in these ensembles. Unsurprisingly, faint galaxies are strongly affected by uncertainties in shape and redshift measurement algorithms, which are hard to control at the level of the Roman Space Telescope and Rubin Observatory's LSST.<br><br>KL combines imaging and spectroscopic information from galaxies to reduce shape noise by more than an order of magnitude and either removes or strongly mitigates the most important sources of theoretical and observational systematic errors inherent in traditional weak lensing techniques (most prominently, intrinsic alignment, shear and photo-z calibration).<br><br></p>
+                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style display-4">Weak lensing measurements are extremely challenging: the shear effect is degenerate with the unobservable intrinsic galaxy shape (with shape dispersion σ_ε~0.25). This corresponds to a S/N ~ 0.01 per galaxy and makes traditional weak lensing a statistical measurement that requires averaging over large numbers of background galaxies.<br>Kinematic lensing breaks the shape-shear degeneracy by combining imaging and spectroscopic data into a new type of lensing inference.<br>Spiral galaxies exhibit disk rotation patterns with a circular velocity that can be inferred from the easily observable galaxy luminosity (Tully-Fisher relation, Huff et al. 2013). Spectroscopic measurements of the rotation velocity of a disk galaxy enable us to infer the unobservable intrinsic galaxy shape in weak lensing measurements and <strong>measure shear on a per-galaxy basis</strong>.<br><br></p>
                 
             </div>
         </div>
     </div>
 
     
-</section>
-
-<section class="header3 cid-tBJeXwwyeO" id="header3-9w">
-
-    
-
-    
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="mbr-figure" style="width: 100%;">
-                <img src="assets/images/proposal-figure-psedufullsky.png" alt="Mobirise" title="">
-            </div>
-
-            <div class="media-content">
-                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">Kinematic Lensing - early studies</h1>
-                
-                <div class="mbr-section-text mbr-white pb-3 ">
-                    <p class="mbr-text mbr-fonts-style display-4">In Xu et al 2022 we explore the KL concept in the context of the Roman Space Telescope and find that it would significantly boost the cosmological information compared to the Roman traditional WL measurement. We note that KL and WL are complementary since the underlying galaxy samples are fundamentally different.<br><br>The figure to the right shows the improvement of KL (blue contours) with Roman ST over WL with Roman ST (black solid). We also explore the idea of an all-sky KL survey, which would cover significantly more area compared to the current Roman reference design survey (2000 deg^2). We note that the survey design of Roman is actively developed and will be finalized only shortly before launch.</p>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
 </section>
 
 <section class="header3 cid-tBJebIKsIY" id="header3-9v">
@@ -248,7 +223,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 100%;">
-                <img src="assets/images/kl2-589x531.png" alt="Mobirise" title="">
+                <img src="assets/images/kl-concept-1-1014x571.png" alt="Mobirise" title="">
             </div>
 
             <div class="media-content">
@@ -264,6 +239,56 @@
 
 </section>
 
+<section class="header3 cid-tBJeXwwyeO" id="header3-9w">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/kl-roman-1014x1020.png" alt="Mobirise" title="">
+            </div>
+
+            <div class="media-content">
+                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">Kinematic Lensing - Roman Space Telescope</h1>
+                
+                <div class="mbr-section-text mbr-white pb-3 ">
+                    <p class="mbr-text mbr-fonts-style display-4">In Xu et al 2023 we explore the KL concept in the context of the Roman Space Telescope and find that it would significantly boost the cosmological information compared to the Roman traditional WL measurement. We note that KL and WL are complementary since the underlying galaxy samples are fundamentally different.<br><br><br>The figure to the right shows the improvement of KL (blue contours) with Roman ST over WL with Roman ST (black solid), which translates into an improvement of a factor of 3.65 in the relevant figure-of-merit, even though the KL galaxy sample is &gt; a factor of 10 smaller.&nbsp;&nbsp;</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header3 cid-tP4bNW3iCZ" id="header3-9y">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/kl-pipeline-1014x866.png" alt="Mobirise" title="">
+            </div>
+
+            <div class="media-content">
+                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">Kinematic Lensing - Pilot Measurement</h1>
+                
+                <div class="mbr-section-text mbr-white pb-3 ">
+                    <p class="mbr-text mbr-fonts-style display-4">To demonstrate the KL technique, the ACL team has developed an analysis pipeline for long-slit spectroscopic data. Per galaxy we fit 11 model parameters: maximum circular velocity, galaxy systemic velocity, galaxy inclination, image half-light radius, spectrum half-light radius, velocity scale radius, central brightness, and disk scale height. Pranjal RS et al. 2023 demonstrated unbiased shear inference on simulated data and provide our most realistic shape noise estimates for KL (c.f. figure on the right).<br>We are currently applying this KL inference pipeline to Keck DEIMOS spectra of source galaxies in the Abel 2261 field for a pilot measurement.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
 <section class="content8 cid-tocaFst0Ij" id="content8-8y">
     
     <div class="container">
@@ -271,7 +296,7 @@
             <div class="counter-container col-md-12 col-lg-12">
                 <h4 class="mbr-section-title mbr-fonts-style mb-4 display-5">Selected papers on KL led by or with major contributions from the ACL</h4>
                 <div class="mbr-text mbr-fonts-style display-4">
-                    <ul><li><a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220911811P/abstract" class="text-primary" target="_blank">Kinematic Lensing Inference I: Characterizing Shape Noise with Simulated Analyses</a><br>Pranjal R., S. ; Krause, Elisabeth ; Huang, Hung-Jin ; Huff, Eric ; Xu, Jiachuan ; Eifler, Tim ; Everett, Spencer (2022)&nbsp;</li><li><a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220100739X/abstract" class="text-primary" target="_blank">Kinematic Lensing with the Roman Space Telescope</a><br>Xu, Jiachuan ; Eifler, Tim ; Huff, Eric ; Pranjal R., S. ; Huang, Hung-Jin ; Everett, Spencer ; Krause, Elisabeth (2022)</li><li><a href="https://ui.adsabs.harvard.edu/abs/2013arXiv1311.1489H/abstract" class="text-primary" target="_blank">Cosmic Shear without shape noise</a><br>Huff, Eric M. ; Krause, Elisabeth ; Eifler, Tim ; Fang, Xiao ; George, Matthew R. ; Schlegel, David (2013/2019)</li></ul><ul>
+                    <ul><li><a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220911811P/abstract" class="text-primary" target="_blank">Kinematic Lensing Inference I: Characterizing Shape Noise with Simulated Analyses</a><br>Pranjal R., S. ; Krause, Elisabeth ; Huang, Hung-Jin ; Huff, Eric ; Xu, Jiachuan ; Eifler, Tim ; Everett, Spencer (2023)&nbsp;</li><li><a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220100739X/abstract" class="text-primary" target="_blank">Kinematic Lensing with the Roman Space Telescope</a><br>Xu, Jiachuan ; Eifler, Tim ; Huff, Eric ; Pranjal R., S. ; Huang, Hung-Jin ; Everett, Spencer ; Krause, Elisabeth (2023)</li><li><a href="https://ui.adsabs.harvard.edu/abs/2013arXiv1311.1489H/abstract" class="text-primary" target="_blank">Cosmic Shear without shape noise</a><br>Huff, Eric M. ; Krause, Elisabeth ; Eifler, Tim ; Fang, Xiao ; George, Matthew R. ; Schlegel, David (2013/2019)</li></ul><ul>
                     </ul>
                 </div>
             </div>
@@ -357,7 +382,7 @@
             </div>
         </div>
     </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/1462476" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/landing-page-builder.html">Landing Page Maker</a></section><script src="assets/popper/popper.min.js"></script>  <script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/1462476" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/web-design-program.html">Website Design Program</a></section><script src="assets/popper/popper.min.js"></script>  <script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 </body>
