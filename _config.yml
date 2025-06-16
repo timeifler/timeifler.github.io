@@ -24,21 +24,21 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Tim Eifler"
-  pronouns         : "he/him"  
-  bio              : "Hello! I am a Professor at the University of Arizona, exploring the Universe (dark denergy and dark matter) using the amazing data from ground and space-based telescopes. "
+  pronouns         : #"he/him"  
+  bio              : "Hello! I am a Professor at the University of Arizona, exploring the Universe (dark denergy and dark matter) with ground and space-based telescopes: Roman Space Telescope, Rubin Observatory, SPHEREx explorer, Dark Energy Spectroscopic Instrument, and Euclid. "
   location         : # "Earth"
   employer         : "University of Arizona"
   uri              : "https://cosmolab.arizona.edu"
-  email            : "none@example.org" 
+  email            : "timeifler_at_arizona.edu" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-1894-3301"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/CosmoLike"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
