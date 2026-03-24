@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tim Eifler</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    :root {
+      --accent: #7eb8d4;
+      --gray: #9ca3af;
+      --dark: #0f1117;
+      --surface: #1a1d27;
+      --surface2: #22263a;
+      --border: #2e3348;
+      --white: #fff;
+      --text: #e2e8f0;
+      --text-muted: #8892a4;
+      --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); font-size: 15px; color: var(--text); background: var(--dark); line-height: 1.65; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Navbar ── */
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand { font-size: 1rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
+    .nav-links { display: flex; gap: 0; list-style: none; }
+    .nav-links a {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      padding: 0 0.85rem;
+      line-height: 60px;
+      display: block;
+      transition: color 0.15s;
+    }
+    .nav-links a:hover, .nav-links a.active { color: var(--text); text-decoration: none; }
+
+    /* ── Layout ── */
+    .container { max-width: 960px; margin: 0 auto; padding: 3rem 1.5rem; }
+
+    /* ── Profile header ── */
+    .profile-row {
+      display: flex;
+      gap: 2.5rem;
+      align-items: flex-start;
+      margin-bottom: 3rem;
+    }
+    @media (max-width: 640px) { .profile-row { flex-direction: column; align-items: center; text-align: center; } }
+
+    .profile-photo {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      object-fit: cover;
+    }
+    .profile-info h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.02em;
+      margin-bottom: 0.2rem;
+    }
+    .profile-info .subtitle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+    .profile-info p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      max-width: 560px;
+      margin-bottom: 1rem;
+    }
+
+    /* ── Section headings ── */
+    .section { margin-bottom: 3.5rem; }
+    .section-heading {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.01em;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .section-heading i { color: var(--accent); font-size: 1.1rem; }
+
+    /* ── About ── */
+    .about-text p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0.85rem; }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    footer a { color: var(--text-muted); }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <span class="nav-brand">Tim Eifler</span>
+  <ul class="nav-links">
+    <li><a href="#about" class="active">about</a></li>
+    <li><a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Eifler%2C+Tim%22&sort=date+desc" target="_blank">publications</a></li>
+    <li><a href="#">cv</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+  <!-- Profile -->
+  <div class="profile-row">
+    <img class="profile-photo" src="Eifler-Tim.png" alt="Tim Eifler"/>
+    <div class="profile-info">
+      <h1>Tim Eifler</h1>
+      <div class="subtitle">Professor of Astronomy &amp; Physics · University of Arizona</div>
+      <p>
+        I work on weak gravitational lensing, large-scale structure, and Bayesian methods for photometric surveys. My group develops statistical frameworks and analysis pipelines for DES, the Nancy Grace Roman Space Telescope, and Rubin Observatory LSST.
+      </p>
+    </div>
+  </div>
+
+  <!-- ── About ── -->
+  <section id="about" class="section">
+    <h2 class="section-heading"><i class="fas fa-user"></i> About</h2>
+    <div class="about-text">
+      <p>
+        I am a Professor in the Departments of Astronomy and Physics at the University of Arizona, based at Steward Observatory in Tucson. My research focuses on observational and theoretical cosmology — specifically on exploiting weak gravitational lensing and galaxy clustering as probes of dark energy, dark matter, and the growth of cosmic structure.
+      </p>
+      <p>
+        I lead development of <a href="#">CosmoLike</a>, a joint-likelihood analysis framework widely used in the community for multi-probe cosmological analyses of photometric surveys. I am a member of the Dark Energy Survey (DES), the Nancy Grace Roman Space Telescope science team, and the Rubin Observatory LSST DESC collaboration.
+      </p>
+      <p>
+        Before joining the University of Arizona, I was a Research Scientist at JPL/Caltech and a postdoctoral researcher at The Ohio State University. I received my PhD and Diplom in physics from the University of Bonn, Germany.
+      </p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 Tim Eifler · University of Arizona ·
+  Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a> ·
+  Hosted by <a href="https://pages.github.com">GitHub Pages</a>
+</footer>
+
+</body>
+</html>
